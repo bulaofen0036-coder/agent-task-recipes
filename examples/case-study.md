@@ -1,5 +1,7 @@
 # 实测案例：给工业编程 Agent 做配方（2026-10）
 
+> 这是专业软件案例的早期数据（v0.1，单路线配方）。多路线迭代的例子见 `tia-portal/modify_block_routes.md`；通用任务上的完整结果见 [`../RESULTS.md`](../RESULTS.md)。
+
 ## 环境
 - Agent：一个基于 LangGraph 的工程助手（DeepSeek v4 flash），通过 MCP 驱动 Siemens TIA Portal（开源的 TIA Portal Openness MCP）。
 - 真实软件、真实工程副本；每次运行都是全新 Agent 进程、全新数据目录、全新 MCP 服务器进程、全新工程副本，单轮任务。

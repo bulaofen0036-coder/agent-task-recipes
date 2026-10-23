@@ -1,2 +1,6 @@
 __pycache__/
 templates/.demo_*
+.venv/
+bench/.venv/
+bench/out/
+bench/out_*/
